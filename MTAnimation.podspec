@@ -8,10 +8,10 @@ Pod::Spec.new do |s|
   s.homepage              = "https://github.com/mysterioustrousers/MTAnimation"
   s.license               = 'MIT'
   s.author                = { "Adam Kirk" => "atomkirk@gmail.com" }
-  s.source                = { :git => "https://github.com/mysterioustrousers/MTAnimation.git", :tag => "#{s.version}" }
+  s.source                = { :git => "git@github.com:yunlijessica/MTAnimation.git", :commit => "53f510d7794e1acdd75592e6567354e458820319" }
   s.ios.deployment_target = '5.0'
   s.osx.deployment_target = '10.7'
-  s.source_files          = 'MTAnimation/UIView+MTAnimation.{h,m}', 'MTAnimation/MTTimingFunctions.{h,c}', 'MTAnimation/MTMatrixInterpolation.{h,c}', 'MTAnimation/MTAnimationTypes.h'
+  s.source_files          = 'MTAnimation/UIView+MTAnimation.{h,m}', 'MTAnimation/MTTimingFunctions.{h,m}', 'MTAnimation/MTMatrixInterpolation.{h,m}', 'MTAnimation/MTAnimationTypes.h'
   s.frameworks            = 'QuartzCore', 'Foundation'
   s.ios.frameworks        = 'UIKit', 'CoreGraphics'
   s.osx.frameworks        = 'Cocoa', 'ApplicationServices'
